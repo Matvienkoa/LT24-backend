@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 require('dotenv').config()
 
-module.exports = new Sequelize('geoloc', 'root', 'Rdwxtdb53', {
-    host: 'localhost',
+module.exports = new Sequelize('', '', '', {
+    host: '',
     dialect: 'mysql'
 });
